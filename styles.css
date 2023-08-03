@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #A0C49D;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Condensed&display=swap');
+
+
+
+.jay{
+background-color: white;
+color:black;
+text-align: center;
+margin: 50px;
+font-size: px;
+width: 200p;
+border: 0.1px solid blanchedalmond;
+position: relative;
+border-radius: 10px;
+height: 100px
+}
+
+
+.fill__btn{
+    height: 20px;
+    width: 90px;
+    bottom: 10%;
+    margin: -0px;
+    padding-bottom: 20px;
+   
+    pointer-events: fill;
+   
+  
+}
+
+button:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.ogb{
+ background-color: #C4D7B2;
+  text-align: center;
+  margin: 0px;
+  font-size: px;
+  width: 100%;
+  border: px solid ;
+  position: relative;
+  height: 100px
+  
+}
+
+.btn{
+  background: #DDE6ED;
+  height: 20px;
+  width: 300px;
+  bottom: 10%;
+   margin: 4px;
+}
+
+.btn:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.jayy{
+  background-color: #E1ECC8;
+  text-align: center;
+  font-size: px;
+  width: 100%;
+  padding: 0px;
+  height: 500px
+  
+}
+p{
+  padding: 10px;
+  
+}
+
+span{
+  color: #6527BE;
+}
+
+
+
+@media (max-width: 1020) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
